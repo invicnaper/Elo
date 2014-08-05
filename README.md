@@ -32,4 +32,4 @@ this will output
     
 Information
 ===
-The class is probabely not complete so you should some stuff , for example your logic to calculat the rating and updating it .
+The class is probably not complete so you should add some stuff , for example your logic to calculate the rating and updating it
