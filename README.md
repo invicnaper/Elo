@@ -26,6 +26,10 @@ than to calculate the probability , we will use the third methode and the <b>cal
     echo 'Probability to be chosen is : ' . $elo->calculate_percent(0,3) .'%'; /* 0 means that the function will return the result of the first element */
     echo '<p>if you chose it , the item will get '. $elo->calculate_percent(0,1) .'</p>
     
+this will output
+    Probability to be chosen is : 33%
+    if you chose it , the item will get 24
+    
 Information
 ===
 The class is probabely not complete so you should some stuff , for example your logic to calculat the rating and updating it .
