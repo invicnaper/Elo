@@ -9,9 +9,9 @@ Elo will take an array that contains many values of rating , and than calculate 
 
 Ex : 
 we have 2 elements with same rating 100 and 100 , than the probability to be chosen is 50% for the two elements .
-and if the item was chosen he will get : Ra = 1/1+10*(Rb-Ra)/400
+and if the item was chosen he will get : Ea = 1/1+10*(Rb-Ra)/400
 Rb = 100 and Ra = 100
-and the second item : Rb = 1/1+10*(Ra-Rb)/400
+and the second item : Eb = 1/1+10*(Ra-Rb)/400
 the array can contains unimitied values :) .
 
 How to use ?
