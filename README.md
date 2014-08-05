@@ -19,7 +19,7 @@ How to use ?
 first declare your array :
 
     $my_array = array('100',100','100');
-    $elo = new elo(ùmy_array);
+    $elo = new elo($my_array);
   
 than to calculate the probability , we will use the third methode and the <b>calculate_percent</b> function
 
