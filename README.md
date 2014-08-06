@@ -21,10 +21,10 @@ first declare your array :
     $my_array = array('100',100','100');
     $elo = new elo($my_array);
   
-than to calculate the probability , we will use the third methode and the <b>calculate_percent</b> function
+than to calculate the probability , we will use the third methode and the <b>elo::calculate_percent</b> function
 
-    echo 'Probability to be chosen is : ' . $elo->calculate_percent(0,3) .'%'; /* 0 means that the function will return the result of the first element */
-    echo '<p>if you chose it , the item will get '. $elo->calculate_percent(0,1) .'</p>';
+    echo 'Probability to be chosen is : ' . elo::calculate_percent(0,3) .'%'; /* 0 means that the function will return the result of the first element */
+    echo '<p>if you chose it , the item will get '. elo::calculate_percent(0,1) .'</p>';
     
 this will output
     Probability to be chosen is : 33%
