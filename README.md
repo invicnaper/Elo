@@ -5,7 +5,7 @@ Using Elo rating , this script will allows you to calculate a percent of many it
 
 What is it ?
 ===
-Elo will take an array that contains many values of rating , and than calculate a percent for all items .
+Elo will take an array that contains many values of rating , and then calculate a percent for all items .
 
 Ex : 
 we have 2 elements with same rating 100 and 100 , than the probability to be chosen is 50% for the two elements .
