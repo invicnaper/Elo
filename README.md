@@ -12,7 +12,7 @@ we have 2 elements with same rating 100 and 100 , than the probability to be cho
 and if the item was chosen he will get : Ea = 1/1+10*(Rb-Ra)/400
 Rb = 100 and Ra = 100
 and the second item : Eb = 1/1+10*(Ra-Rb)/400
-the array can contains unimitied values :) .
+the array can contains unlimited values :) .
 
 How to use ?
 ===
